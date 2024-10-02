@@ -1,0 +1,196 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+/*  <uniquifier>: Use a unique and descriptive class name
+    <weight>: Use a value from 100 to 900 */
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.banner {
+
+    background-image: linear-gradient(rgba(0, 0, 0, .6),
+     rgba(49, 168, 221, .2),
+      rgba(0, 0, 0, .6)),
+      url(assets/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+    background-size: cover;
+}
+
+
+.banner .banner-content {
+
+    text-align: center;
+    width: 600px;
+    height: 605px;
+    margin: auto;
+    
+
+}
+
+.logo {
+
+    align-content: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.2) ;
+    border-radius: 50%;
+    height: 258px;
+    width: 258px;
+    margin: 15px auto;
+
+    
+}
+
+.logo img{
+    height: 75%;
+    width: 88%;
+}
+
+    
+h1 {
+
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#33A8D8, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner-content p {
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.banner-content button {
+
+    color: #33A8D8;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 17px 34px;
+    border: 2px solid #33A8D8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+#course-content {
+
+    text-align: center;
+    Width: 800px;
+    margin: 100px auto;
+}
+
+#course-content h2 {
+    
+    font-Weight: 700;
+    font-size: 32px;
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+#course-content p {
+    
+    margin:24px auto;
+    font-Weight: 400;
+    font-size: 16px;
+
+}
+
+#course-content .module {
+    
+    background-color: #252525;
+    border-radius: 100px;
+    padding: 16px;
+    border: 1px solid #33A8DB;
+    margin: 0 auto 24px;
+    width: 530px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); ;
+
+}
+
+#course-content span {
+    color: #33A8D8;
+}
+
+#transform-world {
+    
+    border-top: 1px solid #33A8D8;
+    border-bottom: 1px solid #33A8D8;
+    background-image: url(assets/images/woman-code.png);
+    height: 560px;
+    background-size: cover;
+    background-attachment: fixed;
+    align-content: center;
+}
+
+#transform-world p {
+
+    width: 280px;
+    font-weight: 900;
+    font-size: 2.5rem;
+    word-wrap: break-word;
+    margin-left: 150px;
+    text-transform: lowercase;
+    text-shadow: #33A8DB 3px 1px;
+
+}
+
+#professional-challenges {
+
+
+    width: 800px;
+    text-align: center;
+    margin: 100px auto;
+
+}
+
+#professional-challenges h2 {
+    
+
+    text-transform: uppercase;
+    color: #33A8D8;
+    font-size: 2rem;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+}
+
+#professional-challenges img {
+    
+    margin: 32px 0;
+}
+
+footer {
+    border-top: 1px solid #33A8D8;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(black, #04243b);
+}
+
+footer a {
+
+    color:#33A8D8;
+    font-weight: 600;
+
+}
